@@ -1,13 +1,13 @@
 ---
 name: nailong-pet
-description: Install or recreate the local Codex custom pet named 奶龙 from bundled assets. Use when the user asks for 奶龙.skills, 奶龙宠物, this yellow character pet, Hatch Pet setup for this specific image, or wants Codex to directly install the prebuilt pet package into ~/.codex/pets without regenerating images.
+description: Install the bundled Codex pet named 奶龙 from this repository. Use when the user asks for 奶龙.skills, 奶龙宠物, this yellow character pet, or wants Codex to install a prebuilt pet package into ~/.codex/pets without regenerating images.
 ---
 
 # 奶龙.skills
 
 ## Purpose
 
-Use this skill to install the bundled 奶龙 Codex pet immediately. The skill includes a validated Codex-compatible `spritesheet.webp` and a reference preview, so do not regenerate images unless the user explicitly asks for a new visual version.
+Install the bundled 奶龙 Codex pet immediately. The repository already includes a validated Codex-compatible `spritesheet.webp` and a reference preview, so do not regenerate images unless the user explicitly asks for a new visual version.
 
 ## Quick Install
 
