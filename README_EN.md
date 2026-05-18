@@ -8,15 +8,30 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Codex Pet](https://img.shields.io/badge/Codex-Pet-blueviolet)](https://openai.com/codex/)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+[![skills.sh](https://img.shields.io/badge/skills.sh-install-black)](https://www.skills.sh/)
 
 A ready-to-install Codex pet skill.  
 This repository bundles a Nailong `spritesheet.webp`, preview image, and installer script so Codex can install the pet locally without regenerating images.
 
-[Quick Start](#quick-start) · [Install As A Skill](#install-as-a-codex-skill) · [State Mapping](#state-mapping) · [Make Your Own Pet](#make-your-own-pet) · [中文](README.md)
+[Install With skills.sh](#install-with-skillssh) · [Quick Start](#quick-start) · [Install As A Skill](#install-as-a-codex-skill) · [State Mapping](#state-mapping) · [Make Your Own Pet](#make-your-own-pet) · [中文](README.md)
 
 </div>
 
 ![Nailong preview](assets/nailong-reference.png)
+
+## Install With skills.sh
+
+If you use the [skills.sh](https://www.skills.sh/) CLI, install this skill with:
+
+```bash
+npx skills add Zhengyici/nailong-pet-skill --skill nailong-pet -g
+```
+
+Restart Codex after installation. Then ask Codex:
+
+```text
+Install the Nailong pet
+```
 
 ## What Is Included
 

@@ -8,15 +8,30 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Codex Pet](https://img.shields.io/badge/Codex-Pet-blueviolet)](https://openai.com/codex/)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+[![skills.sh](https://img.shields.io/badge/skills.sh-install-black)](https://www.skills.sh/)
 
 一个可以直接安装的 Codex 宠物 skill 示例。  
 内置奶龙 `spritesheet.webp`、预览图和安装脚本，让 Codex 不需要重新生图，就能把宠物装进本地 Pets 选择器。
 
-[快速使用](#快速使用) · [安装为 Skill](#安装为-codex-skill) · [动作映射](#动作映射) · [改成自己的宠物](#如何改成你自己的宠物) · [English](README_EN.md)
+[skills.sh 安装](#skillssh-安装) · [快速使用](#快速使用) · [安装为 Skill](#安装为-codex-skill) · [动作映射](#动作映射) · [改成自己的宠物](#如何改成你自己的宠物) · [English](README_EN.md)
 
 </div>
 
 ![奶龙预览](assets/nailong-reference.png)
+
+## skills.sh 安装
+
+如果你使用 [skills.sh](https://www.skills.sh/) CLI，可以一条命令安装：
+
+```bash
+npx skills add Zhengyici/nailong-pet-skill --skill nailong-pet -g
+```
+
+安装后重启 Codex。然后可以让 Codex 使用这个 skill 执行宠物安装：
+
+```text
+安装奶龙宠物
+```
 
 ## 这个仓库包含什么
 
