@@ -1,9 +1,20 @@
+<div align="center">
+
 # 奶龙.skills
 
-一个可以直接安装的 Codex 宠物 skill 示例。仓库内置了奶龙宠物的 `spritesheet.webp`、预览图和安装脚本，适合两类用途：
+> *"把奶龙放进 Codex，让它陪你写代码。"*
 
-- 直接把奶龙安装成 Codex 桌面端宠物
-- 学习如何把自己的角色打包成一个可分发的 Codex pet skill
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Codex Pet](https://img.shields.io/badge/Codex-Pet-blueviolet)](https://openai.com/codex/)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+
+一个可以直接安装的 Codex 宠物 skill 示例。  
+内置奶龙 `spritesheet.webp`、预览图和安装脚本，让 Codex 不需要重新生图，就能把宠物装进本地 Pets 选择器。
+
+[快速使用](#快速使用) · [安装为 Skill](#安装为-codex-skill) · [动作映射](#动作映射) · [改成自己的宠物](#如何改成你自己的宠物) · [English](README_EN.md)
+
+</div>
 
 ![奶龙预览](assets/nailong-reference.png)
 
@@ -27,7 +38,7 @@
 克隆仓库：
 
 ```bash
-git clone https://github.com/notdog1998/nailong-pet-skill.git
+git clone https://github.com/Zhengyici/nailong-pet-skill.git
 cd nailong-pet-skill
 ```
 
@@ -199,3 +210,4 @@ assets/nailong-reference.png
 ## License
 
 MIT
+
