@@ -1,0 +1,4 @@
+interface:
+  display_name: "奶龙.skills"
+  short_description: "一键安装奶龙 Codex 宠物到本地 Pets 选择器"
+  default_prompt: "安装奶龙 Codex 宠物"
